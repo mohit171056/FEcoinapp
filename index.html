@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/coincap-io-logo-vector.svg"image">  
+    <script src="main.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>CoinCap.io | Reliable Cryptocurrency Prices and Market Capitalizations</title>
+</head>
+<body>
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border"
+      role="status" id="loading">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="margin-top: -33px;">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Coins <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exchanges <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Swap <span class="sr-only">(current)</span></a>
+            </li>
+           
+          </ul>
+          <img src="img/coincap-io-logo-vector.svg" height="100px" style="margin-right:400px;">
+          <span class="navbar-text" style="margin-right: 50px;">
+           <span  style="margin-right: 50px;"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span  style="margin-right: 50px;"> <i class="fa-solid fa-gear"></i></span>
+            <button class="btn btn-success" type="button" style="border-radius: 60px / 50px;">Connect wallet</button>
+          </span>
+        </div>
+      </nav>
+     <div style=" height: 380px; background: rgb(255, 255, 255) linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) repeat scroll 0% 0% !important ;">
+    </div>
+      <h5 style="margin-bottom:130px; margin-top:-230px; color: white;">
+        <table style="border:none; table-layout: auto; width: 100%; margin-left:35px;">
+          <thead>
+            <tr>
+              <th scope="col">Market Cap</th>
+              <th scope="col">Exchange Vol</th>
+              <th scope="col">Assets</th>
+              <th scope="col">Exchanges</th>
+              <th scope="col">Markets</th>
+              <th scope="col">BTC Dom Index</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">$1.58T</th>
+              <td>$53.08B</td>
+              <td>2,295</td>
+              <td>73</td>
+              <td>15,165</td>
+              <td>35.4%</td>
+
+            </tr>
+          
+              
+          </tbody>
+        </table></h5>
+      <table class="table table-hover"  id="employees" style="margin-top:-100px; width:90%; justify-content: center; margin-left: 5%; background-color: aliceblue;">
+          <!--  <thead>
+          <tr>
+            <td>Rank</th>
+            <td scope="col">Name</td>
+            <td scope="col">Price</td>
+            <td scope="col">Market cap</td>
+            <td scope="col">VWAP(24 Hrs)</td>
+            <td scope="col">Supply</td>
+            <td scope="col">Volume(24 hr)</td>
+            <td scope="col">Change(24 hr)</td>
+          </tr>
+        </thead>
+        <tbody>
+          <script>
+            for(var i=1;i<=50;i++){
+             document.write("<tr>");
+           document.write("<td>"+i+"</td>");
+           document.write("<td>Hello member1</td>");
+           document.write("<td>Hello member2</td>");
+           document.write("<td>Hello member3</td>");
+           document.write("<td>Hello member4</td>");
+           document.write("<td>Hello member5</td>");
+           document.write("<td>Hello member6</td>");
+           document.write("<td>Hello member7</td>");
+           document.write("</tr>");
+             }
+            </script>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <script>
+           }
+  </script>
+        </tbody>-->
+      </table><br>
+      <button type="button" id="next" onclick="nextclicked()" class="btn btn-success" style="border-radius: 60px / 50px; margin-left:45%;">View More</button>
+     
+      <br><br>
+      <footer class="bg-light text-center text-lg-start" style="color:white; background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246))">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">COINCAP.IO</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Methodology</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Support</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Our API</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Rate Comparison</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Legals</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">Terms Of service</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Privacy policy</a>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-white" style="font-size: 20px;">DISCLAIMER</a>
+                </li><br>
+                <li>
+                  <a href="#!" class="text-white">Neither ShapeShift AG nor CoinCap are in any way associated with CoinMarketCap, LLC or any of its goods and services.</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Follow Us</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white"><i class="fa-brands fa-twitter"></i></a>
+                  <i class="fa-brands fa-facebook-square"></i>
+                </li>
+               
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">COINCAP APP AVAILABLE ON</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white"><img src="img/al.jpg" width="150px" height="150px"></a>
+                </li>
+               
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+      
+        <!-- Copyright -->
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</body>
+</html> 
